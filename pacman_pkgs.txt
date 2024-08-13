@@ -28,7 +28,6 @@ hyprpaper
 imagemagick
 inetutils
 kate
-kde-gtk-config
 kitty
 konsole
 libreoffice-still
