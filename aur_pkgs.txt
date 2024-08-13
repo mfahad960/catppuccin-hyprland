@@ -1,12 +1,8 @@
 bottles
 brave-bin
-catppuccin-gtk-theme-mocha
 cava
-flavours
 hyprpicker-git
 hyprshot
-oh-my-posh
-phinger-cursors
 spicetify-themes-git
 spotify
 ttf-work-sans

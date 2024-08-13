@@ -1,11 +1,9 @@
-aircrack-ng
 arch-install-scripts
 ark
 base
 base-devel
 bitwarden
 blueman
-bluez-utils
 brightnessctl
 btop
 dmidecode
@@ -21,7 +19,6 @@ fzf
 gimp
 git
 github-cli
-gparted
 grub
 gtk-engine-murrine
 hwinfo
@@ -34,7 +31,6 @@ kate
 kde-gtk-config
 kitty
 konsole
-kwalletmanager
 libreoffice-still
 linux
 linux-firmware
@@ -52,17 +48,11 @@ openssh
 pamixer
 papirus-icon-theme
 pavucontrol
-plasma-desktop
-plasma-nm
-plasma-pa
-plasma-systemmonitor
-power-profiles-daemon
 putty
 python-pip
 python-pywal
 ripgrep
 rofi-wayland
-samba
 sddm
 sddm-kcm
 shotcut
