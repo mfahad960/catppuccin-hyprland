@@ -1,5 +1,4 @@
 bottles
-brave-bin
 cava
 hyprpicker-git
 hyprshot

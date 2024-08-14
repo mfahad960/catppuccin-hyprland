@@ -1,5 +1,6 @@
 base
 base-devel
+bitwarden
 blueman
 bluez-utils
 brightnessctl
@@ -9,6 +10,7 @@ fastfetch
 feh
 firefox
 git
+github-cli
 grub
 hyprland
 hyprlock
