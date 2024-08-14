@@ -1,0 +1,300 @@
+@import "mocha.css";
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "SpaceMono Nerd Font";
+    font-size: 9pt;
+    font-weight: 700;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    padding: 0px;
+    margin: 0px;
+}
+
+* {
+    border: none;
+    border-radius: 3px;
+    margin: 0.15em 0.2em 0.2em 0.2em;
+}
+
+#waybar {
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 0px;
+    margin: 0px 0px;
+}
+
+window#waybar {
+    background-color: alpha(@base, 0.9);
+    border-bottom: 2px solid alpha(@blue, 0.9);
+    border-radius: 8px;
+}
+
+#workspaces {
+    background-color: @surface0;
+    min-width: 20px;
+    padding: 0px 6px;
+    border-radius: 6px;
+    /*
+    border: 0.1em solid @mauve;
+    */
+}
+
+#workspaces button {
+    color: @overlay2;
+    padding: 0px 0px;
+    background-color: transparent;
+    border: none
+    /*
+    box-shadow: inset 0 -3px transparent;
+    */
+}
+
+#workspaces button:hover {
+box-shadow: none; /* Remove predefined box-shadow */
+text-shadow: none; /* Remove predefined text-shadow */
+background: none; /* Remove predefined background color (white) */
+transition: none; /* Disable predefined animations */
+}
+
+#workspaces button.empty {
+    color: @surface2;
+}
+
+#workspaces button.active {
+    color: @mauve;
+}
+
+#clock,
+#clock#2,
+#clock#date,
+#battery,
+#cpu,
+#memory,
+#custom-memory,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#pulseaudio-microphone,
+#custom-spotify,
+#tray,
+#mode,
+#idle_inhibitor,
+#mpd,
+#bluetooth,
+#custom-power,
+#custom-spotify,
+#custom-weather,
+#custom-weather.severe,
+#custom-weather.sunnyDay,
+#custom-weather.clearNight,
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight,
+#custom-weather.rainyDay,
+#custom-weather.rainyNight,
+#custom-weather.snowyIcyDay,
+#custom-weather.snowyIcyNight,
+#custom-weather.default {
+    min-width: 20px;
+    padding: 0px 6px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 6px;
+    /*
+    border: 0.1em solid;
+    */
+}
+
+#tray {
+    border: none;
+}
+
+#temperature {
+    background-color: alpha(@blue, 0.3);
+    color: @sapphire;
+}
+
+#temperature.critical {
+    color: @red;
+}
+
+#cpu {
+    color: @peach;
+    background-color: alpha(@peach, 0.2);
+}
+
+#memory,
+#custom-memory {
+    color: @green;
+    background-color: alpha(@green, 0.2);
+}
+
+#custom-power {
+    background-color: alpha(@red, 0.2);
+    color: @red;
+}
+
+#custom-weather {
+    color: @text;
+    background-color: @surface0;
+}
+
+#custom-weather.default {
+    color: @text;
+}
+
+#custom-weather.severe {
+    color: @surface0;
+}
+
+#custom-weather.sunnyDay {
+    color: @yellow;
+}
+
+#custom-weather.clearNight {
+    color: @overlay2;
+}
+
+#custom-weather.cloudyFoggyDay,
+#custom-weather.cloudyFoggyNight {
+    color: @surface2;
+}
+
+#custom-weather.rainyDay,
+#custom-weather.rainyNight {
+    color: @surface1;
+}
+
+#custom-weather.snowyIcyDay,
+#custom-weather.snowyIcyNight {
+    color: @text;
+}
+
+/* If hyprland-workspaces is the leftmost module, omit left margin */
+.modules-left > widget:first-child > #workspaces {
+    margin-left: 0;
+}
+
+/* If hyprland-workspaces is the rightmost module, omit right margin */
+.modules-right > widget:last-child > #workspaces {
+    margin-right: 0;
+}
+
+#pulseaudio,
+#pulseaudio#microphone {
+    color: @mauve;
+    background-color: @surface0;
+}
+
+#backlight {
+    color: @mantle;
+    background-color: @sapphire;
+}
+
+#tray,
+#clock,
+#clock#2,
+#clock#date {
+    color: @text;
+    background-color: @surface0;
+}
+
+#battery {
+    background-color: alpha(@peach, 0.2);
+    color: @peach;
+}
+
+#battery.charging,
+#battery.full,
+#battery.plugged {
+    color: @green;
+    background-color: alpha(@green, 0.2);
+}
+
+@keyframes blink {
+    to {
+        background-color: alpha(@mantle, 0.5);
+        color: @subtext1;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background-color: @red;
+    color: @crust;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#bluetooth {
+    background-color: alpha(@blue, 0.3);
+    color: @sapphire;
+}
+
+#bluetooth.disabled {
+    color: @text;
+    background-color: @surface0;
+}
+
+#network {
+    background-color: alpha(@blue, 0.3);
+    color: @sapphire;
+    padding-left: 9px;
+}
+
+#network.disconnected {
+    color: @text;
+    background-color: @surface0;
+    padding-left: 9px;
+}
+
+#custom-spotify {
+    background-color: alpha(@green, 0.2);
+    color: @green;
+    padding: 0px 12px;
+}
+
+#custom-media.custom-spotify {
+    background-color: @green;
+}
+
+#custom-media.custom-vlc {
+    background-color: @yellow;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: @red;
+}
+
+#idle_inhibitor {
+    background-color: @surface0;
+}
+
+#idle_inhibitor.activated {
+    background-color: @text;
+    color: @surface0;
+}
+
+#keyboard-state {
+    background: @green;
+    color: @crust;
+    padding: 0 0px;
+    margin: 0 5px;
+    min-width: 16px;
+}
+
+#keyboard-state > label {
+    padding: 0 0px;
+}
+
+#keyboard-state > label.locked {
+    background: rgba(0, 0, 0, 0.2);
+}
