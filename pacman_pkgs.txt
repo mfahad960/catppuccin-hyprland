@@ -27,6 +27,7 @@ neovim
 networkmanager
 otf-font-awesome
 pamixer
+papirus-icon-theme
 pavucontrol
 pulseaudio
 rofi-wayland

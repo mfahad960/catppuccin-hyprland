@@ -5,6 +5,8 @@ pacman -S --needed - < pacman_pkgs.txt
 
 #restore aur packages
 pacman -S --needed base-devel git
+mkdir ~/Repositories
+cd ~/Repositories
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
@@ -47,8 +49,8 @@ ln -s ~/Repositories/catppuccin-hyprland/.config/kitty/kitty.conf ~/.config/kitt
 ln -s ~/Repositories/catppuccin-hyprland/.config/kitty/theme.conf ~/.config/kitty/theme.conf
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/neofetch/config.conf ~/.config/neofetch/config.conf
-
-ln -s ~/Repositories/catppuccin-hyprland/.config/fastfetch/config.jsonc ~/.config/fastfetch/config.jsonc
+mkdir ~/.config/fastfetch
+ln -s ~/Repositories/catppuccin-hyprland/.config/fastfetch/full.jsonc ~/.config/fastfetch/config.jsonc
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/starship/starship.toml ~/.config/starship.toml
 
@@ -56,4 +58,4 @@ ln -s ~/Repositories/catppuccin-hyprland/.config/wlogout/ ~/.config/wlogout/
 
 echo "done!"
 echo "rebooting..."
-sudo reboot
+reboot
