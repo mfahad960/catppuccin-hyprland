@@ -41,29 +41,17 @@ ln -s ~/Repositories/catppuccin-hyprland/.config/fastfetch/config.jsonc ~/.confi
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/starship/starship.toml ~/.config/starship.toml
 
-ln -s ~/Repositories/catppuccin-hyprland/.config/wlogout/assets ~/.config/wlogout/assets
-ln -s ~/Repositories/catppuccin-hyprland/.config/wlogout/style.css ~/.config/wlogout/style.css
-ln -s ~/Repositories/catppuccin-hyprland/.config/wlogout/layout ~/.config/wlogout/layout
+ln -s ~/Repositories/catppuccin-hyprland/.config/wlogout/ ~/.config/wlogout/
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/kitty/kitty.conf ~/.config/kitty/kitty.conf
 ln -s ~/Repositories/catppuccin-hyprland/.config/kitty/theme.conf ~/.config/kitty/theme.conf
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/waybar/config.jsonc ~/.config/waybar/config.jsonc
-ln -s ~/Repositories/catppuccin-hyprland/.config/waybar/style.css ~/.config/waybar/style.css
+ln -s ~/Repositories/catppuccin-hyprland/.config/waybar/style2.css ~/.config/waybar/style.css
 
 ln -s ~/Repositories/catppuccin-hyprland/.bashrc ~/.bashrc
 
-ln -s ~/Repositories/catppuccin-hyprland/.config/scripts/memory.sh ~/.config/scripts/memory.sh
-ln -s ~/Repositories/catppuccin-hyprland/.config/scripts/logout.sh ~/.config/scripts/logout.sh
-ln -s ~/Repositories/catppuccin-hyprland/.config/scripts/rofi.sh ~/.config/scripts/rofi.sh
-ln -s ~/Repositories/catppuccin-hyprland/.config/scripts/mediaplayer.py ~/.config/scripts/mediaplayer.py
-
-#install fonts
-yay -S ttf-work-sans
-yay -S ttf-space-mono-nerd
-yay -S ttf-jetbrains-mono
-yay -S ttf-3270-nerd
-yay -S ttf-cascadia-code-nerd
+ln -s ~/Repositories/catppuccin-hyprland/.config/scripts/ ~/.config/scripts/
 
 echo "done!"
 echo "rebooting..."

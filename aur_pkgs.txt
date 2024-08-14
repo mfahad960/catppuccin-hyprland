@@ -3,14 +3,9 @@ brave-bin
 cava
 hyprpicker-git
 hyprshot
-spicetify-themes-git
 spotify
 ttf-work-sans
-unetbootin
 vesktop
-visual-studio-code-bin
-vscodium-bin
 wlogout
-wpgtk
 yay
 yay-debug
