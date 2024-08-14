@@ -36,8 +36,10 @@ starship
 timeshift
 ttf-3270-nerd
 ttf-cascadia-code-nerd
+ttf-font-awesome
 ttf-jetbrains-mono
 ttf-space-mono-nerd
 ufw
 waybar
+wofi
 yazi
