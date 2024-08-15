@@ -53,7 +53,7 @@ inputbar {
 textbox-prompt-colon {
     enabled:                     false;
     expand:                      false;
-    str:                         ":";
+    str:                         "";
     background-color:            inherit;
     text-color:                  inherit;
 }
@@ -67,7 +67,7 @@ entry {
     padding:                     0.4em;
     text-color:                  @text;
     background-color:            transparent;
-    placeholder:                 "Search ...";
+    placeholder:                 " Search ...";
     //placeholder:                 "何 か を 探 し て い る...?";//
     placeholder-color:           @text;
     cursor:                      none;

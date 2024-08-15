@@ -4,6 +4,7 @@ bitwarden
 blueman
 bluez-utils
 brightnessctl
+btop
 dunst
 efibootmgr
 fastfetch

@@ -5,6 +5,7 @@ hyprshot
 spotify
 ttf-work-sans
 vesktop
+visual-studio-code-bin
 wlogout
 yay
 yay-debug
