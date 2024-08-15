@@ -27,6 +27,10 @@ nautilus
 neofetch
 neovim
 networkmanager
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+noto-fonts-extra
 otf-font-awesome
 pamixer
 papirus-icon-theme

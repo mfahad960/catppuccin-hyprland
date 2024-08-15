@@ -34,7 +34,7 @@ sudo systemctl enable --now cronie
 
 #sym links for dotfiles
 ln -s ~/Repositories/catppuccin-hyprland/.config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
-ln -s ~/Repositories/catppuccin-hyprland/.config/hypr/hyprpicker.conf ~/.config/hypr/hyprpicker.conf
+ln -s ~/Repositories/catppuccin-hyprland/.config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
 ln -s ~/Repositories/catppuccin-hyprland/.config/hypr/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
 
 ln -s ~/Repositories/catppuccin-hyprland/.bashrc ~/.bashrc
