@@ -1,9 +1,9 @@
-# Hyprland Catppuccin Dots
+## Hyprland Catppuccin Dots
 
 - Window Manager `Hyprland`
 - Terminal `kitty`
 - Shell `bash`
-- Browser `Brave`
+- Browser `Firefox`
 - Status Bar `Waybar`
 - Notifications `dunst`
 - Launcher `rofi`
