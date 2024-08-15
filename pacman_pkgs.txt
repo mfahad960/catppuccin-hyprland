@@ -19,6 +19,7 @@ hyprpaper
 imagemagick
 kate
 kitty
+less
 linux
 linux-firmware
 nano
