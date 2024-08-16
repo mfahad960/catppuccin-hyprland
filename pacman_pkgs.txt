@@ -36,6 +36,7 @@ pamixer
 papirus-icon-theme
 pavucontrol
 pulseaudio
+pulseaudio-bluetooth
 rofi-wayland
 sddm
 sof-firmware

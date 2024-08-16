@@ -41,6 +41,7 @@ ln -s ~/Repositories/catppuccin-hyprland/.bashrc ~/.bashrc
 ln -s ~/Repositories/catppuccin-hyprland/.config/scripts/ ~/.config/scripts/
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/rofi ~/.config/rofi
+ln -s ~/Repositories/catppuccin-hyprland/.config/dunst ~/.config/
 
 ln -s ~/Repositories/catppuccin-hyprland/.config/waybar/config.jsonc ~/.config/waybar/config.jsonc
 ln -s ~/Repositories/catppuccin-hyprland/.config/waybar/style2.css ~/.config/waybar/style.css
