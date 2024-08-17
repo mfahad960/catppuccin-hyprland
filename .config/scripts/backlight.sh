@@ -16,7 +16,7 @@ send_notification() {
   brightness=$(get_brightness)
      
   # Send the notification using dunstify
-  dunstify -r 5555 "Brightness" -h int:value:"$brightness" "$brightness%"
+  dunstify -r 5555 "  Brightness" -h int:value:"$brightness" "$brightness%"
 }
 
 case "$1" in
