@@ -8,34 +8,23 @@
     transition-property: background-color;
     transition-duration: 0.5s;
     padding: 0px;
-    margin: 0px;
-}
-
-* {
-    border: none;
-    border-radius: 3px;
-    margin: 0.15em 0.2em 0.2em 0.2em;
-}
-
-#waybar {
-    transition-property: background-color;
-    transition-duration: 0.5s;
-    border-radius: 0px;
-    margin: 0px 0px;
+    margin-top: 0em;
 }
 
 window#waybar {
+    background-color: transparent;
+    /*
     background-color: alpha(@base, 0.9);
     border-bottom: 2px solid alpha(@blue, 0.9);
     border-radius: 8px;
+    */
 }
 
 #workspaces {
-    background-color: @surface0;
-    min-width: 20px;
-    padding: 0px 2px;
-    border-radius: 6px;
+    background-color: @surface2;
     /*
+    padding: 0 0.25em;
+    border-radius: 6px;
     border: 0.1em solid @mauve;
     */
 }
@@ -43,17 +32,14 @@ window#waybar {
 #workspaces button {
     color: @overlay2;
     background-color: transparent;
-    border: none
-    /*
-    box-shadow: inset 0 -3px transparent;
-    */
 }
 
 #workspaces button:hover {
-box-shadow: none; /* Remove predefined box-shadow */
-text-shadow: none; /* Remove predefined text-shadow */
-background: none; /* Remove predefined background color (white) */
-transition: none; /* Disable predefined animations */
+    box-shadow: none; /* Remove predefined box-shadow */
+    text-shadow: none; /* Remove predefined text-shadow */
+    background: none; /* Remove predefined background color (white) */
+    transition: none; /* Disable predefined animations */
+    border: none;
 }
 
 #workspaces button.special {
@@ -136,7 +122,7 @@ transition: none; /* Disable predefined animations */
 
 #custom-weather {
     color: @text;
-    background-color: @surface0;
+    background-color: @surface2;
 }
 
 #custom-weather.default {
@@ -183,7 +169,7 @@ transition: none; /* Disable predefined animations */
 #pulseaudio,
 #pulseaudio#microphone {
     color: @mauve;
-    background-color: @surface0;
+    background-color: @surface2;
 }
 
 #backlight {
@@ -196,7 +182,7 @@ transition: none; /* Disable predefined animations */
 #clock#2,
 #clock#date {
     color: @text;
-    background-color: @surface0;
+    background-color: @surface2;
 }
 
 #battery {
@@ -235,7 +221,7 @@ transition: none; /* Disable predefined animations */
 
 #bluetooth.disabled {
     color: @text;
-    background-color: @surface0;
+    background-color: @surface2;
 }
 
 #network {

@@ -3,14 +3,11 @@
     // general config //
     "layer": "bottom",
     "position": "top",
-    "height": 30,
+    "height": 28,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
-    //"width": 1910,
-    "margin-top": 0,
-    "margin-left": 0,
-    "margin-right": 0,
+    //"width": 1910
   
     //Choose the order of the modules
     "modules-left": [   
@@ -18,6 +15,7 @@
         "temperature",
         "cpu",
         "custom/memory",
+        "custom/padd",
 	    "hyprland/workspaces",
         "custom/padd",              
         "custom/padd",
@@ -37,7 +35,7 @@
         "battery",
         "clock",
         "tray",
-        "custom/power"
+        "custom/padd"
     ],
     
     // Modules configuration
@@ -59,7 +57,7 @@
         "on-click": "playerctl play-pause --player spotify",
         "on-scroll-up": "playerctl next --player spotify",
         "on-scroll-down": "playerctl previous --player spotify",
-        "max-length": 75,
+        "max-length": 35,
         "tooltip": true
     },
 
@@ -105,7 +103,7 @@
     "custom/memory": {
         "exec": "~/.config/scripts/memory.sh",
         "interval": 3,
-        "format": "  {} MiB",
+        "format": "󰓅 {} MiB",
         "tooltip": false
     },
 
@@ -146,8 +144,8 @@
         },
         "format": "{icon} {capacity}%",
         "rotate": 0,
-        "format-charging": " {capacity}%",
-        "format-plugged": " {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": "󰂄 {capacity}%",
         "format-alt": "{time} {icon}",
         "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
     },
