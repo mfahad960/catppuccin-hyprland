@@ -21,10 +21,12 @@ window#waybar {
 }
 
 #workspaces {
-    background-color: @surface2;
-    /*
-    padding: 0 0.25em;
     border-radius: 6px;
+    border: 0.1em solid @red;
+    background-color: alpha(@red, 0.3);
+    /*
+    background-color: @surface2;
+    padding: 0 0.25em;
     border: 0.1em solid @mauve;
     */
 }
@@ -86,13 +88,8 @@ window#waybar {
     margin-left: 3px;
     margin-right: 3px;
     border-radius: 6px;
-    /*
     border: 0.1em solid;
-    */
-}
-
-#tray {
-    border: none;
+    background-color: transparent;
 }
 
 #temperature {
@@ -168,8 +165,12 @@ window#waybar {
 
 #pulseaudio,
 #pulseaudio#microphone {
+    color: @red;
+    background-color: alpha(@red, 0.3);
+    /*
     color: @mauve;
     background-color: @surface2;
+    */
 }
 
 #backlight {
@@ -215,13 +216,18 @@ window#waybar {
 }
 
 #bluetooth {
+    color: @text;
+    background-color: @surface2;
+}
+
+#bluetooth.connected {
     background-color: alpha(@blue, 0.3);
     color: @sapphire;
 }
 
 #bluetooth.disabled {
     color: @text;
-    background-color: @surface2;
+    background-color: @surface0;
 }
 
 #network {
@@ -232,7 +238,6 @@ window#waybar {
 #network.disconnected {
     color: @text;
     background-color: @surface0;
-    padding-left: 9px;
 }
 
 #custom-spotify {
