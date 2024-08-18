@@ -32,7 +32,7 @@ window#waybar {
 }
 
 #workspaces button {
-    color: @overlay2;
+    color: @text;
     background-color: transparent;
 }
 
@@ -45,15 +45,15 @@ window#waybar {
 }
 
 #workspaces button.special {
-    color: @red;
+    color: @sapphire;
 }
 
 #workspaces button.empty {
-    color: @surface2;
+    color: @overlay2;
 }
 
 #workspaces button.active {
-    color: @mauve;
+    color: @red;
 }
 
 #clock,
@@ -241,6 +241,7 @@ window#waybar {
 }
 
 #custom-spotify {
+    border: 0.1em solid;
     background-color: alpha(@green, 0.2);
     color: @green;
     padding: 0px 8px;
