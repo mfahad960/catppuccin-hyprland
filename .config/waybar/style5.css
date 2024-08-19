@@ -8,7 +8,6 @@
     transition-property: background-color;
     transition-duration: 0.5s;
     padding: 0px;
-    margin: 0.1em 0 0 0;
 }
 
 window#waybar {
@@ -20,10 +19,23 @@ window#waybar {
     */
 }
 
+.modules-left {
+    background-color: @surface0;
+    margin-left: 0px;
+    padding: 0px 5px 0px 0px;
+}
+.modules-center {
+    background-color: @surface0;
+    margin-left: 0px;
+    padding: 5px 5px 5px 5px;
+}
+.modules-right {
+    background-color: @surface0;
+    margin-left: 0px;
+    padding: 0px 0px 0px 5px;
+}
+
 #workspaces {
-    border-radius: 6px;
-    border: 0.1em solid @red;
-    background-color: alpha(@red, 0.3);
     /*
     background-color: @surface2;
     padding: 0 0.25em;
@@ -89,12 +101,10 @@ window#waybar {
     margin-left: 3px;
     margin-right: 3px;
     border-radius: 6px;
-    border: 0.1em solid;
     background-color: transparent;
 }
 
 #temperature {
-    background-color: alpha(@blue, 0.3);
     color: @sapphire;
 }
 
@@ -104,23 +114,19 @@ window#waybar {
 
 #cpu {
     color: @peach;
-    background-color: alpha(@peach, 0.2);
 }
 
 #memory,
 #custom-memory {
     color: @green;
-    background-color: alpha(@green, 0.2);
 }
 
 #custom-power {
-    background-color: alpha(@red, 0.2);
     color: @red;
 }
 
 #custom-weather {
     color: @text;
-    background-color: @surface2;
 }
 
 #custom-weather.default {
@@ -167,11 +173,6 @@ window#waybar {
 #pulseaudio,
 #pulseaudio#microphone {
     color: @red;
-    background-color: alpha(@red, 0.3);
-    /*
-    color: @mauve;
-    background-color: @surface2;
-    */
 }
 
 #backlight {
@@ -184,11 +185,9 @@ window#waybar {
 #clock#2,
 #clock#date {
     color: @text;
-    background-color: @surface2;
 }
 
 #battery {
-    background-color: alpha(@peach, 0.2);
     color: @peach;
 }
 
@@ -196,7 +195,6 @@ window#waybar {
 #battery.full,
 #battery.plugged {
     color: @green;
-    background-color: alpha(@green, 0.2);
 }
 
 @keyframes blink {
@@ -218,32 +216,25 @@ window#waybar {
 
 #bluetooth {
     color: @text;
-    background-color: @surface2;
 }
 
 #bluetooth.connected {
-    background-color: alpha(@blue, 0.3);
     color: @sapphire;
 }
 
 #bluetooth.disabled {
     color: @text;
-    background-color: @surface0;
 }
 
 #network {
-    background-color: alpha(@blue, 0.3);
     color: @sapphire;
 }
 
 #network.disconnected {
     color: @text;
-    background-color: @surface0;
 }
 
 #custom-spotify {
-    border: 0.1em solid;
-    background-color: alpha(@green, 0.2);
     color: @green;
     padding: 0px 8px;
     border-radius: 6px;
