@@ -20,18 +20,24 @@ window#waybar {
 }
 
 .modules-left {
-    background-color: @surface0;
-    margin-left: 0px;
+    border-radius: 6px;
+    border: 0.15em solid @blue;
+    background-color: transparent;
+    margin: 4px 0px 0px 4px;
     padding: 0px 5px 0px 0px;
 }
 .modules-center {
-    background-color: @surface0;
-    margin-left: 0px;
+    border-radius: 6px;
+    border: 0.15em solid @blue;
+    background-color: transparent;
+    margin: 4px 0px 0px 0px;
     padding: 5px 5px 5px 5px;
 }
 .modules-right {
-    background-color: @surface0;
-    margin-left: 0px;
+    border-radius: 6px;
+    border: 0.15em solid @blue;
+    background-color: transparent;
+    margin: 4px 4px 0px 0px;
     padding: 0px 0px 0px 5px;
 }
 
@@ -44,7 +50,6 @@ window#waybar {
 }
 
 #workspaces button {
-    margin: 0 0 0 0;
     color: @text;
     background-color: transparent;
 }
