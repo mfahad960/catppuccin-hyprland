@@ -12,13 +12,11 @@
 
 window#waybar {
     background-color: transparent;
-    /*
-    background-color: alpha(@base, 0.9);
     border-bottom: 2px solid alpha(@blue, 0.9);
     border-radius: 8px;
-    */
 }
 
+/*
 .modules-left {
     border-radius: 6px;
     border: 0.15em solid @blue;
@@ -40,6 +38,7 @@ window#waybar {
     margin: 4px 4px 0px 0px;
     padding: 0px 0px 0px 5px;
 }
+*/
 
 #workspaces {
     /*
