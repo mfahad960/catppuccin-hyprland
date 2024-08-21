@@ -35,8 +35,8 @@ otf-font-awesome
 pamixer
 papirus-icon-theme
 pavucontrol
-pulseaudio
-pulseaudio-bluetooth
+pipewire-pulse
+qbittorrent
 rofi-wayland
 sddm
 sof-firmware
@@ -48,6 +48,8 @@ ttf-font-awesome
 ttf-jetbrains-mono
 ttf-space-mono-nerd
 ufw
+vlc
 waybar
 wofi
+xdg-desktop-portal-hyprland
 yazi

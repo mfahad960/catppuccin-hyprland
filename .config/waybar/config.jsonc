@@ -3,7 +3,7 @@
     // general config //
     "layer": "bottom",
     "position": "top",
-    "height": 28,
+    "height": 32,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -15,14 +15,14 @@
         "temperature",
         "cpu",
         "custom/memory",
-        "custom/padd",
-	    "hyprland/workspaces",
         "custom/padd",              
         "custom/padd",
         "custom/spotify",
         "custom/padd"   
     ],
     "modules-center": [
+        "custom/padd",
+        "hyprland/workspaces",
         "custom/padd",
         "custom/weather",
         "custom/padd"        
@@ -125,14 +125,14 @@
             "6": "6",
             "7": "7",
             "8": "8",
-            "9": "9",
+            "9": "9"
         },
         "persistent-workspaces": {
             "1": [],
             "2": [],
             "3": [],
-            "4": [],
-        },
+            "4": []
+        }
     },
 
     "battery": {
@@ -234,7 +234,7 @@
 
     "tray": {
         "icon-size": 16,
-        "spacing": 4,
+        "spacing": 5,
         "rotate": 0,
         "show-passive-items": true
     },
