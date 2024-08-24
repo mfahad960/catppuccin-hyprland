@@ -68,6 +68,7 @@ window#waybar {
     color: @red;
 }
 
+#workspaces,
 #clock,
 #clock#2,
 #clock#date,
