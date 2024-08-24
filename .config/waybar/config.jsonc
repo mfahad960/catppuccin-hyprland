@@ -3,7 +3,7 @@
     // general config //
     "layer": "bottom",
     "position": "top",
-    "height": 30,
+    "height": 26,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -234,7 +234,7 @@
 
     "tray": {
         "icon-size": 16,
-        "spacing": 5,
+        "spacing": 6,
         "rotate": 0,
         "show-passive-items": true
     },
