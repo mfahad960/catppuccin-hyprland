@@ -98,7 +98,7 @@ window#waybar {
 #custom-weather.snowyIcyNight,
 #custom-weather.default {
     min-width: 20px;
-    padding: 2px 8px;
+    padding: 0px 8px;
     margin-top: 4px;
     margin-bottom: 6px;
     margin-left: 3px;
