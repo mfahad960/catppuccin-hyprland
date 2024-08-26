@@ -21,7 +21,6 @@ hyprpaper
 imagemagick
 kate
 kitty
-kwalletmanager
 less
 linux
 linux-firmware
