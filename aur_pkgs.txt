@@ -1,4 +1,6 @@
+bibata-cursor-theme
 bottles
+brave-bin
 cava
 hyprpicker-git
 hyprshot
