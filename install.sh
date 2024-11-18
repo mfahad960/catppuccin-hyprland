@@ -31,6 +31,14 @@ echo "adding timeshift service"
 sudo systemctl enable --now cronie
 echo "adding bluetooth service"
 sudo systemctl enable --now bluetooth
+
+#set cursor
+echo 'gtk-cursor-theme-name="Bibata-Modern-Ice"' >> ~/.gtkrc-2.0
+echo -e "[Settings]\ngtk-cursor-theme-name=Bibata-Modern-Ice" >> ~/.config/gtk-3.0/settings.ini
+
+#brave persistent flag
+echo "--password-store=basic" >> ~/.config/brave-flags.conf
+
 #sym links for dotfiles
 ln -sf ~/Repositories/catppuccin-hyprland/.config/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
 ln -sf ~/Repositories/catppuccin-hyprland/.config/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
@@ -63,4 +71,5 @@ ln -sf ~/Repositories/catppuccin-hyprland/.config/wlogout ~/.config/wlogout
 echo "done!"
 echo "press any key to reboot..."
 read -n 1 -s
+echo "rebooting..."
 reboot

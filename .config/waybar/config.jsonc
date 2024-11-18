@@ -229,7 +229,8 @@
         //"return-type": "json",
         //"exec": "~/.config/waybar/modules/weather.sh",
         "exec-if": "ping wttr.in -c1",
-        "tooltip": false
+        "tooltip": true,
+	"tooltip-format": "Karachi"
     },
 
     "tray": {
