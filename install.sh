@@ -37,11 +37,11 @@ echo "setting cursor..."
 echo 'gtk-cursor-theme-name="Bibata-Modern-Ice"' >> ~/.gtkrc-2.0
 echo -e "[Settings]\ngtk-cursor-theme-name=Bibata-Modern-Ice" >> ~/.config/gtk-3.0/settings.ini
 
-#brave persistent flag
+#set brave persistent flag
 echo "setting brave persistent flag..."
 echo "--password-store=basic" >> ~/.config/brave-flags.conf
 
-#sym links for dotfiles
+#create sym links for dotfiles
 echo "setting up dotfiles..."
 
 ln -sf ~/Repositories/catppuccin-hyprland/.config/hypr/ ~/.config/hypr
