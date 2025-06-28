@@ -101,6 +101,7 @@
     bottles
     btop
     blueman
+    dunst
     feh
     gimp3
     imagemagick
