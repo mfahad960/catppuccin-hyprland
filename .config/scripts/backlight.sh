@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 get_brightness() {
   # Get the output of brightnessctl and filter the current brightness

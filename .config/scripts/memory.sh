@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #memory usage in MiB
 mem=$(free -m | awk '/Mem:/ {print $3}')
